@@ -1,0 +1,22 @@
+{
+  "name": "clickerbattle",
+  "version": "1.0.0",
+  "description": "web test heroku and webgl",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KimTaeJun/ClickerBattle.git"
+  },
+  "author": "babkoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KimTaeJun/ClickerBattle/issues"
+  },
+  "homepage": "https://github.com/KimTaeJun/ClickerBattle#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
