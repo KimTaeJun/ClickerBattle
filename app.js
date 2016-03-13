@@ -7,9 +7,7 @@ app.listen(port, function(){
   console.log('Server On!');
 });
 
-app.get('/', function(req,res){
-  res.send('Hello! Babkoo Test');
-});
+app.use(express.static(__dirname + '/public'));
 
 app.listen(3000, function(){
   console.log('Server On!');
