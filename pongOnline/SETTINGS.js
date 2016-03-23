@@ -22,7 +22,7 @@
     <meta name="viewport" content="width=1020">
     
     
-    <title>online_ping_pong/package.json at master · imtaekh/online_ping_pong</title>
+    <title>online_ping_pong/SETTINGS.js at master · imtaekh/online_ping_pong</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -42,7 +42,7 @@
       <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
     <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
     <link rel="assets" href="https://assets-cdn.github.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/NzE0NDgwNzowMGJkODZmZTY3YjU5NGU2ZjA3YWYzMTVmN2FiNGI2YTpmZWRmOTVmOWQyOTYwNmEyNDI4NDFkNWQ2MGFjOThmZWRkNzg3YzVhZmI0YjQxYjJmNzZjYzA5YzQxMmIyNTI3--60fd12ea63a5aca3fe4bca857f4052863b3b6df0">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/NzE0NDgwNzowMGJkODZmZTY3YjU5NGU2ZjA3YWYzMTVmN2FiNGI2YTozZmJkNzQ0ZGQ5NjRkMDNmYzUzNjc4OGFlNjJhNzBhMTZiMDk5MTI0NTQxODgyMjdiMjAyYWFjYzQyNGEyNGUx--a85008524c285a746e90ade2428d83a742381cc3">
     <meta name="pjax-timeout" content="1000">
     <link rel="sudo-modal" href="/sessions/sudo_modal">
 
@@ -54,7 +54,7 @@
 <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="B6E62B63:7CDB:8262AC5:56F2BDA1" name="octolytics-dimension-request_id" /><meta content="7144807" name="octolytics-actor-id" /><meta content="KimTaeJun" name="octolytics-actor-login" /><meta content="422ba374d420c65d34304a6dcb42abeaca2866c2a7586ae141b46903ec33927d" name="octolytics-actor-hash" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="B6E62B63:3F8C:E7C86A2:56F2BE07" name="octolytics-dimension-request_id" /><meta content="7144807" name="octolytics-actor-id" /><meta content="KimTaeJun" name="octolytics-actor-login" /><meta content="422ba374d420c65d34304a6dcb42abeaca2866c2a7586ae141b46903ec33927d" name="octolytics-actor-hash" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
 
@@ -67,7 +67,7 @@
     <meta name="user-login" content="KimTaeJun">
 
         <meta name="expected-hostname" content="github.com">
-      <meta name="js-proxy-site-detection-payload" content="MjQwNGNjOTE4NWY1NmM4Y2Q1Y2FmYjRkMmU0NmJjNTI2ZTQzYWNjMDdiMTRmYjk2MjI0Y2IxY2QwODcyNmQwY3x7InJlbW90ZV9hZGRyZXNzIjoiMTgyLjIzMC40My45OSIsInJlcXVlc3RfaWQiOiJCNkU2MkI2Mzo3Q0RCOjgyNjJBQzU6NTZGMkJEQTEifQ==">
+      <meta name="js-proxy-site-detection-payload" content="ZmY2ZWJjNTgwMTg0MjU4YzVhNTUyZDJhYjdlMzAyZDE0ZWQ1ZTc0Zjg4MDIyYWRmODkwZjQ1YjJiOWIyNWNhY3x7InJlbW90ZV9hZGRyZXNzIjoiMTgyLjIzMC40My45OSIsInJlcXVlc3RfaWQiOiJCNkU2MkI2MzozRjhDOkU3Qzg2QTI6NTZGMkJFMDcifQ==">
 
       <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
       <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
@@ -85,7 +85,7 @@
   <link href="https://github.com/imtaekh/online_ping_pong/commits/master.atom" rel="alternate" title="Recent Commits to online_ping_pong:master" type="application/atom+xml">
 
 
-      <link rel="canonical" href="https://github.com/imtaekh/online_ping_pong/blob/master/package.json" data-pjax-transient>
+      <link rel="canonical" href="https://github.com/imtaekh/online_ping_pong/blob/master/pongOnline/SETTINGS.js" data-pjax-transient>
   </head>
 
 
@@ -224,7 +224,7 @@
             Settings
           </a>
 
-          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="d72c007a066609fda87b0c6784550022816682fd" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="dWXrzMqRV8fxY5D3+i/mN0ZtcQj9w8ckUCd3xwz8N55dq1XYzxdDiQ0G6NAhmHS1yOFIkrK8g2GN3t0C8ZvO/g==" /></div>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="d72c007a066609fda87b0c6784550022816682fd" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="vQogg5fD0VoB6VjP+i8BE2v3yKkbHnR9pgXVRiOwl7kAwL2JR5qJl7TY1k0EYHy/FIpHbyy5ZlJSC6ezxfLWnA==" /></div>
             <button class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
               Sign out
             </button>
@@ -262,7 +262,7 @@
 <ul class="pagehead-actions">
 
   <li>
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="d72c007a066609fda87b0c6784550022816682fd" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="bLEV3F88QY0UaBq66ewhTU9PMmdsnMS53yXAg+DmQgz+QdEz+vutDaPpSwFuwcLsVUDIk+PMOoXDlOzXunsbZg==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="51046982" />
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="d72c007a066609fda87b0c6784550022816682fd" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="tecruA4dKKMCuq3ISlAWgy9xMB63JQbEs75dbZoUG/I8l9QteAnLBTSRp29544mE01Ly07eGzzV/q4WPJGt/+Q==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="51046982" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/imtaekh/online_ping_pong/subscription"
@@ -337,7 +337,7 @@
     
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/imtaekh/online_ping_pong/unstar" class="js-toggler-form starred" data-form-nonce="d72c007a066609fda87b0c6784550022816682fd" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="eFlB46D8rNSE05nGqLdsGCEpVVIf0myP3G8rD4jUpmNwXvC8IBS/N2u84zA97Nh9joZU32qvtOGWkqU2s+7Oug==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/imtaekh/online_ping_pong/unstar" class="js-toggler-form starred" data-form-nonce="d72c007a066609fda87b0c6784550022816682fd" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="IY7gMMVZPqa0avAdO9SMtfIfxvRXkZCtQnN0m3X1UPWJlp3gpWQcOZWHLDcX9sUcdbfUUYhxkwGqAwta6Sr35w==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Unstar this repository" title="Unstar imtaekh/online_ping_pong"
@@ -349,7 +349,7 @@
           0
         </a>
 </form>
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/imtaekh/online_ping_pong/star" class="js-toggler-form unstarred" data-form-nonce="d72c007a066609fda87b0c6784550022816682fd" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="YviHt3mfLyuR8wBnMNZPzyyHhRoUksSIexFo0yv8kKnuCb2rXEF9RoYbg0VoIYznPA2B1E5Mz2BJx5wpAp+U3Q==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/imtaekh/online_ping_pong/star" class="js-toggler-form unstarred" data-form-nonce="d72c007a066609fda87b0c6784550022816682fd" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="lI3hPSCElAeddwy43Pv1v98zMCrpLXlntlcltyCIPg20qsf1yh88xI9G08S2m9ODu79od668S9Bz0b1BGr+JqQ==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Star this repository" title="Star imtaekh/online_ping_pong"
@@ -452,9 +452,9 @@
 
     
 
-<a href="/imtaekh/online_ping_pong/blob/a6ab0763c834affd23aa38c6c9ff4d99f35e3a6d/package.json" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+<a href="/imtaekh/online_ping_pong/blob/a6ab0763c834affd23aa38c6c9ff4d99f35e3a6d/pongOnline/SETTINGS.js" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-<!-- blob contrib key: blob_contributors:v21:3af73684ad9d4b8048e5362bb76eb9da -->
+<!-- blob contrib key: blob_contributors:v21:35a1824f53c2384ab6fe955ed94d8751 -->
 
 <div class="file-navigation js-zeroclipboard-container">
   
@@ -496,7 +496,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/imtaekh/online_ping_pong/blob/master/package.json"
+               href="/imtaekh/online_ping_pong/blob/master/pongOnline/SETTINGS.js"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -533,66 +533,43 @@
     <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
   </div>
   <div class="breadcrumb js-zeroclipboard-target">
-    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/imtaekh/online_ping_pong"><span>online_ping_pong</span></a></span></span><span class="separator">/</span><strong class="final-path">package.json</strong>
+    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/imtaekh/online_ping_pong"><span>online_ping_pong</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/imtaekh/online_ping_pong/tree/master/pongOnline"><span>pongOnline</span></a></span><span class="separator">/</span><strong class="final-path">SETTINGS.js</strong>
   </div>
 </div>
 
-
-  <div class="commit-tease">
-      <span class="right">
-        <a class="commit-tease-sha" href="/imtaekh/online_ping_pong/commit/9ae178f60b65fff9ef722d0754d854a767f0702e" data-pjax>
-          9ae178f
-        </a>
-        <time datetime="2016-02-11T04:28:34Z" is="relative-time">Feb 10, 2016</time>
-      </span>
-      <div>
-        <img alt="@imtaekh" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/12193322?v=3&amp;s=40" width="20" />
-        <a href="/imtaekh" class="user-mention" rel="author">imtaekh</a>
-          <a href="/imtaekh/online_ping_pong/commit/9ae178f60b65fff9ef722d0754d854a767f0702e" class="message" data-pjax="true" title="code cleaned up">code cleaned up</a>
-      </div>
-
-    <div class="commit-tease-contributors">
-      <button type="button" class="btn-link muted-link contributors-toggle" data-facebox="#blob_contributors_box">
-        <strong>1</strong>
-         contributor
-      </button>
-      
-    </div>
-
-    <div id="blob_contributors_box" style="display:none">
-      <h2 class="facebox-header" data-facebox-id="facebox-header">Users who have contributed to this file</h2>
-      <ul class="facebox-user-list" data-facebox-id="facebox-description">
-          <li class="facebox-user-list-item">
-            <img alt="@imtaekh" height="24" src="https://avatars2.githubusercontent.com/u/12193322?v=3&amp;s=48" width="24" />
-            <a href="/imtaekh">imtaekh</a>
-          </li>
-      </ul>
-    </div>
+<include-fragment class="commit-tease" src="/imtaekh/online_ping_pong/contributors/master/pongOnline/SETTINGS.js">
+  <div>
+    Fetching contributors&hellip;
   </div>
 
+  <div class="commit-tease-contributors">
+    <img alt="" class="loader-loading left" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" />
+    <span class="loader-error">Cannot retrieve contributors at this time</span>
+  </div>
+</include-fragment>
 <div class="file">
   <div class="file-header">
   <div class="file-actions">
 
     <div class="btn-group">
-      <a href="/imtaekh/online_ping_pong/raw/master/package.json" class="btn btn-sm " id="raw-url">Raw</a>
-        <a href="/imtaekh/online_ping_pong/blame/master/package.json" class="btn btn-sm js-update-url-with-hash">Blame</a>
-      <a href="/imtaekh/online_ping_pong/commits/master/package.json" class="btn btn-sm " rel="nofollow">History</a>
+      <a href="/imtaekh/online_ping_pong/raw/master/pongOnline/SETTINGS.js" class="btn btn-sm " id="raw-url">Raw</a>
+        <a href="/imtaekh/online_ping_pong/blame/master/pongOnline/SETTINGS.js" class="btn btn-sm js-update-url-with-hash">Blame</a>
+      <a href="/imtaekh/online_ping_pong/commits/master/pongOnline/SETTINGS.js" class="btn btn-sm " rel="nofollow">History</a>
     </div>
 
         <a class="btn-octicon tooltipped tooltipped-nw"
-           href="github-windows://openRepo/https://github.com/imtaekh/online_ping_pong?branch=master&amp;filepath=package.json"
+           href="github-windows://openRepo/https://github.com/imtaekh/online_ping_pong?branch=master&amp;filepath=pongOnline%2FSETTINGS.js"
            aria-label="Open this file in GitHub Desktop"
            data-ga-click="Repository, open with desktop, type:windows">
             <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" role="img" version="1.1" viewBox="0 0 16 16" width="16"><path d="M15 2H1c-0.55 0-1 0.45-1 1v9c0 0.55 0.45 1 1 1h5.34c-0.25 0.61-0.86 1.39-2.34 2h8c-1.48-0.61-2.09-1.39-2.34-2h5.34c0.55 0 1-0.45 1-1V3c0-0.55-0.45-1-1-1z m0 9H1V3h14v8z"></path></svg>
         </a>
 
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/imtaekh/online_ping_pong/edit/master/package.json" class="inline-form js-update-url-with-hash" data-form-nonce="d72c007a066609fda87b0c6784550022816682fd" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="/FfVqBPM+8YFwQgN4HEHrNV3KAVg9p7dUsO1GWUk4YrBow1JH6qnrHTTfmpr8FDAIMSoiAAjIZt6DB7QhZyVtA==" /></div>
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/imtaekh/online_ping_pong/edit/master/pongOnline/SETTINGS.js" class="inline-form js-update-url-with-hash" data-form-nonce="d72c007a066609fda87b0c6784550022816682fd" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Y2rD0cN2WIxOA/euz1xVrYxmlnlNba5Vl0fqfEjuEUvMqPN8Efijeh978gI46mkq3bz0wG9u7Izy8Ba+IX31TA==" /></div>
           <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-pencil" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M0 12v3h3l8-8-3-3L0 12z m3 2H1V12h1v1h1v1z m10.3-9.3l-1.3 1.3-3-3 1.3-1.3c0.39-0.39 1.02-0.39 1.41 0l1.59 1.59c0.39 0.39 0.39 1.02 0 1.41z"></path></svg>
           </button>
-</form>        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/imtaekh/online_ping_pong/delete/master/package.json" class="inline-form" data-form-nonce="d72c007a066609fda87b0c6784550022816682fd" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="T8qYnjzt4VTZjy/xqK26gztriJNNO77iXUFcTdU5gHKvZ27JVGHOaTtizPhfVBuZzlX6Fc1G0Rv8MZtIKZkIaw==" /></div>
+</form>        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/imtaekh/online_ping_pong/delete/master/pongOnline/SETTINGS.js" class="inline-form" data-form-nonce="d72c007a066609fda87b0c6784550022816682fd" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="r6KQrktvAJpWPplDIX90LaTflRCFNB34XRig/ilHEKQufwo8rqe3o5J/pELVU8pDVH7Ra/hD/pAlysWRqkn5Mg==" /></div>
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and delete the file" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M10 2H8c0-0.55-0.45-1-1-1H4c-0.55 0-1 0.45-1 1H1c-0.55 0-1 0.45-1 1v1c0 0.55 0.45 1 1 1v9c0 0.55 0.45 1 1 1h7c0.55 0 1-0.45 1-1V5c0.55 0 1-0.45 1-1v-1c0-0.55-0.45-1-1-1z m-1 12H2V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9z m1-10H1v-1h9v1z"></path></svg>
@@ -600,135 +577,144 @@
 </form>  </div>
 
   <div class="file-info">
-      31 lines (30 sloc)
+      33 lines (31 sloc)
       <span class="file-info-divider"></span>
-    683 Bytes
+    525 Bytes
   </div>
 </div>
 
   
 
-  <div itemprop="text" class="blob-wrapper data type-json">
+  <div itemprop="text" class="blob-wrapper data type-javascript">
       <table class="highlight tab-size js-file-line-container" data-tab-size="8">
       <tr>
         <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="LC1" class="blob-code blob-code-inner js-file-line">{</td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">var</span> <span class="pl-c1">SETTINGS</span> <span class="pl-k">=</span> {</td>
       </tr>
       <tr>
         <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>name<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>online_ping_pong<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line">  WIDTH <span class="pl-k">:</span> <span class="pl-c1">600</span>,</td>
       </tr>
       <tr>
         <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="LC3" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>version<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>1.0.0<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line">  HEIGHT <span class="pl-k">:</span> <span class="pl-c1">400</span>,</td>
       </tr>
       <tr>
         <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>description<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>fun online ping pong<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line">  BORDER_WIDTH <span class="pl-k">:</span> <span class="pl-c1">10</span>,</td>
       </tr>
       <tr>
         <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="LC5" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>main<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>app.js<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line">  BACKGROUND_COLOR <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&quot;</span>#FFFFFF<span class="pl-pds">&quot;</span></span>,</td>
       </tr>
       <tr>
         <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>scripts<span class="pl-pds">&quot;</span></span>: {</td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line">  PLAYER <span class="pl-k">:</span> {</td>
       </tr>
       <tr>
         <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;</span>test<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>echo <span class="pl-cce">\&quot;</span>Error: no test specified<span class="pl-cce">\&quot;</span> &amp;&amp; exit 1<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line">    WIDTH <span class="pl-k">:</span> <span class="pl-c1">15</span>,</td>
       </tr>
       <tr>
         <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;</span>start<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>node app.js<span class="pl-pds">&quot;</span></span></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line">    HEIGHT <span class="pl-k">:</span> <span class="pl-c1">80</span>,</td>
       </tr>
       <tr>
         <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line">  },</td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line">    GAP <span class="pl-k">:</span> <span class="pl-c1">20</span></td>
       </tr>
       <tr>
         <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>repository<span class="pl-pds">&quot;</span></span>: {</td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line">  },</td>
       </tr>
       <tr>
         <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;</span>type<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>git<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line">  BALL <span class="pl-k">:</span> {</td>
       </tr>
       <tr>
         <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;</span>url<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>git+https://github.com/imtaekh/online_ping_pong.git<span class="pl-pds">&quot;</span></span></td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line">    WIDTH <span class="pl-k">:</span> <span class="pl-c1">15</span>,</td>
       </tr>
       <tr>
         <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line">  },</td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">    HEIGHT <span class="pl-k">:</span> <span class="pl-c1">15</span>,</td>
       </tr>
       <tr>
         <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>keywords<span class="pl-pds">&quot;</span></span>: [</td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">  },</td>
       </tr>
       <tr>
         <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;</span>node<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">  NET <span class="pl-k">:</span> {</td>
       </tr>
       <tr>
         <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;</span>game<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">    WIDTH <span class="pl-k">:</span> <span class="pl-c1">6</span></td>
       </tr>
       <tr>
         <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="LC17" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;</span>online<span class="pl-pds">&quot;</span></span></td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">  },</td>
       </tr>
       <tr>
         <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="LC18" class="blob-code blob-code-inner js-file-line">  ],</td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">  SCORE <span class="pl-k">:</span> {</td>
       </tr>
       <tr>
         <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="LC19" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>author<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>imtaek hong<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">    Y <span class="pl-k">:</span> <span class="pl-c1">40</span>,</td>
       </tr>
       <tr>
         <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="LC20" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>license<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>ISC<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line">    SIZE <span class="pl-k">:</span> <span class="pl-c1">30</span>,</td>
       </tr>
       <tr>
         <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="LC21" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>bugs<span class="pl-pds">&quot;</span></span>: {</td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line">    GAP <span class="pl-k">:</span> <span class="pl-c1">50</span></td>
       </tr>
       <tr>
         <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="LC22" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;</span>url<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>https://github.com/imtaekh/online_ping_pong/issues<span class="pl-pds">&quot;</span></span></td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line">  }</td>
       </tr>
       <tr>
         <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="LC23" class="blob-code blob-code-inner js-file-line">  },</td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">};</td>
       </tr>
       <tr>
         <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
-        <td id="LC24" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>homepage<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>https://github.com/imtaekh/online_ping_pong#readme<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">SETTINGS</span>.<span class="pl-c1">CLIENT_SETTINGS</span> <span class="pl-k">=</span> {</td>
       </tr>
       <tr>
         <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
-        <td id="LC25" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>dependencies<span class="pl-pds">&quot;</span></span>: {</td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line">  WIDTH <span class="pl-k">:</span> <span class="pl-c1">SETTINGS</span>.<span class="pl-c1">WIDTH</span>,</td>
       </tr>
       <tr>
         <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
-        <td id="LC26" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;</span>express<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>^4.13.4<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">  HEIGHT <span class="pl-k">:</span> <span class="pl-c1">SETTINGS</span>.<span class="pl-c1">HEIGHT</span>,</td>
       </tr>
       <tr>
         <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
-        <td id="LC27" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;</span>socket.io<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>^1.4.5<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">  BORDER_WIDTH <span class="pl-k">:</span> <span class="pl-c1">SETTINGS</span>.<span class="pl-c1">BORDER_WIDTH</span>,</td>
       </tr>
       <tr>
         <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="LC28" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;</span>path<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>^0.12.7<span class="pl-pds">&quot;</span></span></td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line">  BACKGROUND_COLOR <span class="pl-k">:</span> <span class="pl-c1">SETTINGS</span>.<span class="pl-c1">BACKGROUND_COLOR</span>,</td>
       </tr>
       <tr>
         <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="LC29" class="blob-code blob-code-inner js-file-line">  }</td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line">  NET <span class="pl-k">:</span> <span class="pl-c1">SETTINGS</span>.<span class="pl-c1">NET</span></td>
       </tr>
       <tr>
         <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="LC30" class="blob-code blob-code-inner js-file-line">}</td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">};</td>
+      </tr>
+      <tr>
+        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">module</span>.<span class="pl-smi">exports</span> <span class="pl-k">=</span> <span class="pl-c1">SETTINGS</span>;</td>
       </tr>
 </table>
 
@@ -769,7 +755,7 @@
       <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" role="img" title="GitHub " version="1.1" viewBox="0 0 16 16" width="24"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59 0.4 0.07 0.55-0.17 0.55-0.38 0-0.19-0.01-0.82-0.01-1.49-2.01 0.37-2.53-0.49-2.69-0.94-0.09-0.23-0.48-0.94-0.82-1.13-0.28-0.15-0.68-0.52-0.01-0.53 0.63-0.01 1.08 0.58 1.23 0.82 0.72 1.21 1.87 0.87 2.33 0.66 0.07-0.52 0.28-0.87 0.51-1.07-1.78-0.2-3.64-0.89-3.64-3.95 0-0.87 0.31-1.59 0.82-2.15-0.08-0.2-0.36-1.02 0.08-2.12 0 0 0.67-0.21 2.2 0.82 0.64-0.18 1.32-0.27 2-0.27 0.68 0 1.36 0.09 2 0.27 1.53-1.04 2.2-0.82 2.2-0.82 0.44 1.1 0.16 1.92 0.08 2.12 0.51 0.56 0.82 1.27 0.82 2.15 0 3.07-1.87 3.75-3.65 3.95 0.29 0.25 0.54 0.73 0.54 1.48 0 1.07-0.01 1.93-0.01 2.2 0 0.21 0.15 0.46 0.55 0.38C13.71 14.53 16 11.53 16 8 16 3.58 12.42 0 8 0z"></path></svg>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2016 <span title="0.07583s from github-fe155-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2016 <span title="0.18485s from github-fe137-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>

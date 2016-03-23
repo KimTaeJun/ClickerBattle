@@ -22,7 +22,7 @@
     <meta name="viewport" content="width=1020">
     
     
-    <title>online_ping_pong/package.json at master · imtaekh/online_ping_pong</title>
+    <title>online_ping_pong/RoomManager.js at master · imtaekh/online_ping_pong</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -42,7 +42,7 @@
       <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
     <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
     <link rel="assets" href="https://assets-cdn.github.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/NzE0NDgwNzowMGJkODZmZTY3YjU5NGU2ZjA3YWYzMTVmN2FiNGI2YTpmZWRmOTVmOWQyOTYwNmEyNDI4NDFkNWQ2MGFjOThmZWRkNzg3YzVhZmI0YjQxYjJmNzZjYzA5YzQxMmIyNTI3--60fd12ea63a5aca3fe4bca857f4052863b3b6df0">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/NzE0NDgwNzowMGJkODZmZTY3YjU5NGU2ZjA3YWYzMTVmN2FiNGI2YTpjNjQ3MmZkN2UyNmZiMjliNjM4MjkwMTVhNGE4MTFlYzUyMDc0NDQyYWE3NjllNmIzZDdiOTE0YmJmYzI4OGVj--9ed4a52b246d5c516fbc48f05c78a4af44ea8a89">
     <meta name="pjax-timeout" content="1000">
     <link rel="sudo-modal" href="/sessions/sudo_modal">
 
@@ -54,7 +54,7 @@
 <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="B6E62B63:7CDB:8262AC5:56F2BDA1" name="octolytics-dimension-request_id" /><meta content="7144807" name="octolytics-actor-id" /><meta content="KimTaeJun" name="octolytics-actor-login" /><meta content="422ba374d420c65d34304a6dcb42abeaca2866c2a7586ae141b46903ec33927d" name="octolytics-actor-hash" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="B6E62B63:3F8C:E7C7C92:56F2BE03" name="octolytics-dimension-request_id" /><meta content="7144807" name="octolytics-actor-id" /><meta content="KimTaeJun" name="octolytics-actor-login" /><meta content="422ba374d420c65d34304a6dcb42abeaca2866c2a7586ae141b46903ec33927d" name="octolytics-actor-hash" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
 
@@ -67,7 +67,7 @@
     <meta name="user-login" content="KimTaeJun">
 
         <meta name="expected-hostname" content="github.com">
-      <meta name="js-proxy-site-detection-payload" content="MjQwNGNjOTE4NWY1NmM4Y2Q1Y2FmYjRkMmU0NmJjNTI2ZTQzYWNjMDdiMTRmYjk2MjI0Y2IxY2QwODcyNmQwY3x7InJlbW90ZV9hZGRyZXNzIjoiMTgyLjIzMC40My45OSIsInJlcXVlc3RfaWQiOiJCNkU2MkI2Mzo3Q0RCOjgyNjJBQzU6NTZGMkJEQTEifQ==">
+      <meta name="js-proxy-site-detection-payload" content="OWZhNDI5MzRlNjkyYzMwYTA1MjFkNTE1MWNmNGE4ZTZjMDNlMzM1MjIyNWE2NjZjNmI0YzUwZDJjMmMwMTkxOXx7InJlbW90ZV9hZGRyZXNzIjoiMTgyLjIzMC40My45OSIsInJlcXVlc3RfaWQiOiJCNkU2MkI2MzozRjhDOkU3QzdDOTI6NTZGMkJFMDMifQ==">
 
       <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
       <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
@@ -85,7 +85,7 @@
   <link href="https://github.com/imtaekh/online_ping_pong/commits/master.atom" rel="alternate" title="Recent Commits to online_ping_pong:master" type="application/atom+xml">
 
 
-      <link rel="canonical" href="https://github.com/imtaekh/online_ping_pong/blob/master/package.json" data-pjax-transient>
+      <link rel="canonical" href="https://github.com/imtaekh/online_ping_pong/blob/master/pongOnline/RoomManager.js" data-pjax-transient>
   </head>
 
 
@@ -224,7 +224,7 @@
             Settings
           </a>
 
-          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="d72c007a066609fda87b0c6784550022816682fd" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="dWXrzMqRV8fxY5D3+i/mN0ZtcQj9w8ckUCd3xwz8N55dq1XYzxdDiQ0G6NAhmHS1yOFIkrK8g2GN3t0C8ZvO/g==" /></div>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="d72c007a066609fda87b0c6784550022816682fd" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="CV0TBhZyDBtQluwz3NOFEyY9RngHEOL+4rpuymKmmKFyfQnDlphlZOcGbjV7V4xtccvv/3Hx3Ti8c0+uIgyz5g==" /></div>
             <button class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
               Sign out
             </button>
@@ -262,7 +262,7 @@
 <ul class="pagehead-actions">
 
   <li>
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="d72c007a066609fda87b0c6784550022816682fd" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="bLEV3F88QY0UaBq66ewhTU9PMmdsnMS53yXAg+DmQgz+QdEz+vutDaPpSwFuwcLsVUDIk+PMOoXDlOzXunsbZg==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="51046982" />
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="d72c007a066609fda87b0c6784550022816682fd" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ww6TssrTDNfloeQBIJY35qI0R7lN1kBEOJmwOj1ip+Pcc0PA9tBn8c+5YQbwwzyKZQf2IrBeybSUkBuQH5vICw==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="51046982" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/imtaekh/online_ping_pong/subscription"
@@ -337,7 +337,7 @@
     
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/imtaekh/online_ping_pong/unstar" class="js-toggler-form starred" data-form-nonce="d72c007a066609fda87b0c6784550022816682fd" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="eFlB46D8rNSE05nGqLdsGCEpVVIf0myP3G8rD4jUpmNwXvC8IBS/N2u84zA97Nh9joZU32qvtOGWkqU2s+7Oug==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/imtaekh/online_ping_pong/unstar" class="js-toggler-form starred" data-form-nonce="d72c007a066609fda87b0c6784550022816682fd" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="0yseG0dsbWh2nchH9rH3qIIAClAnqq8m7jTPTCa5OEI8OEg2VhYA6aK+RW3AjoNYcTez/Vd4XyRBDIDi8fQMPA==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Unstar this repository" title="Unstar imtaekh/online_ping_pong"
@@ -349,7 +349,7 @@
           0
         </a>
 </form>
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/imtaekh/online_ping_pong/star" class="js-toggler-form unstarred" data-form-nonce="d72c007a066609fda87b0c6784550022816682fd" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="YviHt3mfLyuR8wBnMNZPzyyHhRoUksSIexFo0yv8kKnuCb2rXEF9RoYbg0VoIYznPA2B1E5Mz2BJx5wpAp+U3Q==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/imtaekh/online_ping_pong/star" class="js-toggler-form unstarred" data-form-nonce="d72c007a066609fda87b0c6784550022816682fd" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="XdAQH4r64LJAWay6mId/pEEOuLHpemoJuGOBZQp7yr6Q0zQWVnZUi6im0YjQVWXPhGLlOIW/KgwbpAOcs87nnQ==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Star this repository" title="Star imtaekh/online_ping_pong"
@@ -452,9 +452,9 @@
 
     
 
-<a href="/imtaekh/online_ping_pong/blob/a6ab0763c834affd23aa38c6c9ff4d99f35e3a6d/package.json" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+<a href="/imtaekh/online_ping_pong/blob/a6ab0763c834affd23aa38c6c9ff4d99f35e3a6d/pongOnline/RoomManager.js" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-<!-- blob contrib key: blob_contributors:v21:3af73684ad9d4b8048e5362bb76eb9da -->
+<!-- blob contrib key: blob_contributors:v21:df263ad9392b24b8039e76bf03eaa169 -->
 
 <div class="file-navigation js-zeroclipboard-container">
   
@@ -496,7 +496,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/imtaekh/online_ping_pong/blob/master/package.json"
+               href="/imtaekh/online_ping_pong/blob/master/pongOnline/RoomManager.js"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -533,22 +533,22 @@
     <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
   </div>
   <div class="breadcrumb js-zeroclipboard-target">
-    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/imtaekh/online_ping_pong"><span>online_ping_pong</span></a></span></span><span class="separator">/</span><strong class="final-path">package.json</strong>
+    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/imtaekh/online_ping_pong"><span>online_ping_pong</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/imtaekh/online_ping_pong/tree/master/pongOnline"><span>pongOnline</span></a></span><span class="separator">/</span><strong class="final-path">RoomManager.js</strong>
   </div>
 </div>
 
 
   <div class="commit-tease">
       <span class="right">
-        <a class="commit-tease-sha" href="/imtaekh/online_ping_pong/commit/9ae178f60b65fff9ef722d0754d854a767f0702e" data-pjax>
-          9ae178f
+        <a class="commit-tease-sha" href="/imtaekh/online_ping_pong/commit/a6ab0763c834affd23aa38c6c9ff4d99f35e3a6d" data-pjax>
+          a6ab076
         </a>
-        <time datetime="2016-02-11T04:28:34Z" is="relative-time">Feb 10, 2016</time>
+        <time datetime="2016-03-20T03:38:40Z" is="relative-time">Mar 19, 2016</time>
       </span>
       <div>
         <img alt="@imtaekh" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/12193322?v=3&amp;s=40" width="20" />
         <a href="/imtaekh" class="user-mention" rel="author">imtaekh</a>
-          <a href="/imtaekh/online_ping_pong/commit/9ae178f60b65fff9ef722d0754d854a767f0702e" class="message" data-pjax="true" title="code cleaned up">code cleaned up</a>
+          <a href="/imtaekh/online_ping_pong/commit/a6ab0763c834affd23aa38c6c9ff4d99f35e3a6d" class="message" data-pjax="true" title="angle added">angle added</a>
       </div>
 
     <div class="commit-tease-contributors">
@@ -575,24 +575,24 @@
   <div class="file-actions">
 
     <div class="btn-group">
-      <a href="/imtaekh/online_ping_pong/raw/master/package.json" class="btn btn-sm " id="raw-url">Raw</a>
-        <a href="/imtaekh/online_ping_pong/blame/master/package.json" class="btn btn-sm js-update-url-with-hash">Blame</a>
-      <a href="/imtaekh/online_ping_pong/commits/master/package.json" class="btn btn-sm " rel="nofollow">History</a>
+      <a href="/imtaekh/online_ping_pong/raw/master/pongOnline/RoomManager.js" class="btn btn-sm " id="raw-url">Raw</a>
+        <a href="/imtaekh/online_ping_pong/blame/master/pongOnline/RoomManager.js" class="btn btn-sm js-update-url-with-hash">Blame</a>
+      <a href="/imtaekh/online_ping_pong/commits/master/pongOnline/RoomManager.js" class="btn btn-sm " rel="nofollow">History</a>
     </div>
 
         <a class="btn-octicon tooltipped tooltipped-nw"
-           href="github-windows://openRepo/https://github.com/imtaekh/online_ping_pong?branch=master&amp;filepath=package.json"
+           href="github-windows://openRepo/https://github.com/imtaekh/online_ping_pong?branch=master&amp;filepath=pongOnline%2FRoomManager.js"
            aria-label="Open this file in GitHub Desktop"
            data-ga-click="Repository, open with desktop, type:windows">
             <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" role="img" version="1.1" viewBox="0 0 16 16" width="16"><path d="M15 2H1c-0.55 0-1 0.45-1 1v9c0 0.55 0.45 1 1 1h5.34c-0.25 0.61-0.86 1.39-2.34 2h8c-1.48-0.61-2.09-1.39-2.34-2h5.34c0.55 0 1-0.45 1-1V3c0-0.55-0.45-1-1-1z m0 9H1V3h14v8z"></path></svg>
         </a>
 
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/imtaekh/online_ping_pong/edit/master/package.json" class="inline-form js-update-url-with-hash" data-form-nonce="d72c007a066609fda87b0c6784550022816682fd" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="/FfVqBPM+8YFwQgN4HEHrNV3KAVg9p7dUsO1GWUk4YrBow1JH6qnrHTTfmpr8FDAIMSoiAAjIZt6DB7QhZyVtA==" /></div>
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/imtaekh/online_ping_pong/edit/master/pongOnline/RoomManager.js" class="inline-form js-update-url-with-hash" data-form-nonce="d72c007a066609fda87b0c6784550022816682fd" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="xXdT17zNPQ82I/7/UNPWFkmQp8dYM+E1iNSWz7nfGz/PD5s43c7wPFV8JDXif8X9Y+xYai4iReHkf9hd2MDR9w==" /></div>
           <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-pencil" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M0 12v3h3l8-8-3-3L0 12z m3 2H1V12h1v1h1v1z m10.3-9.3l-1.3 1.3-3-3 1.3-1.3c0.39-0.39 1.02-0.39 1.41 0l1.59 1.59c0.39 0.39 0.39 1.02 0 1.41z"></path></svg>
           </button>
-</form>        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/imtaekh/online_ping_pong/delete/master/package.json" class="inline-form" data-form-nonce="d72c007a066609fda87b0c6784550022816682fd" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="T8qYnjzt4VTZjy/xqK26gztriJNNO77iXUFcTdU5gHKvZ27JVGHOaTtizPhfVBuZzlX6Fc1G0Rv8MZtIKZkIaw==" /></div>
+</form>        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/imtaekh/online_ping_pong/delete/master/pongOnline/RoomManager.js" class="inline-form" data-form-nonce="d72c007a066609fda87b0c6784550022816682fd" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="uQb+9CtP9+XWSSRQkFtI5LgkruXPQSXtdbvKm/j1+laUJ0U162Ai3S6C3ZqxLezpd3c5Zp2KQh6kI9JUIigsEg==" /></div>
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and delete the file" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M10 2H8c0-0.55-0.45-1-1-1H4c-0.55 0-1 0.45-1 1H1c-0.55 0-1 0.45-1 1v1c0 0.55 0.45 1 1 1v9c0 0.55 0.45 1 1 1h7c0.55 0 1-0.45 1-1V5c0.55 0 1-0.45 1-1v-1c0-0.55-0.45-1-1-1z m-1 12H2V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9z m1-10H1v-1h9v1z"></path></svg>
@@ -600,135 +600,432 @@
 </form>  </div>
 
   <div class="file-info">
-      31 lines (30 sloc)
+      104 lines (98 sloc)
       <span class="file-info-divider"></span>
-    683 Bytes
+    3.16 KB
   </div>
 </div>
 
   
 
-  <div itemprop="text" class="blob-wrapper data type-json">
+  <div itemprop="text" class="blob-wrapper data type-javascript">
       <table class="highlight tab-size js-file-line-container" data-tab-size="8">
       <tr>
         <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="LC1" class="blob-code blob-code-inner js-file-line">{</td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">var</span> Player <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&quot;</span>./objects/PlayerObject.js<span class="pl-pds">&quot;</span></span>);</td>
       </tr>
       <tr>
         <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>name<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>online_ping_pong<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-k">var</span> Ball <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&quot;</span>./objects/BallObject.js<span class="pl-pds">&quot;</span></span>);</td>
       </tr>
       <tr>
         <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="LC3" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>version<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>1.0.0<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-k">var</span> Score <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&quot;</span>./objects/ScoreObject.js<span class="pl-pds">&quot;</span></span>);</td>
       </tr>
       <tr>
         <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>description<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>fun online ping pong<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-k">var</span> Countdown <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&quot;</span>./objects/CountdownObject.js<span class="pl-pds">&quot;</span></span>);</td>
       </tr>
       <tr>
         <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="LC5" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>main<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>app.js<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-k">var</span> <span class="pl-c1">SETTINGS</span> <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&quot;</span>./SETTINGS.js<span class="pl-pds">&quot;</span></span>);</td>
       </tr>
       <tr>
         <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>scripts<span class="pl-pds">&quot;</span></span>: {</td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;</span>test<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>echo <span class="pl-cce">\&quot;</span>Error: no test specified<span class="pl-cce">\&quot;</span> &amp;&amp; exit 1<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-k">function</span> <span class="pl-en">RoomManager</span>(<span class="pl-smi">io</span>){</td>
       </tr>
       <tr>
         <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;</span>start<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>node app.js<span class="pl-pds">&quot;</span></span></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line">  <span class="pl-k">var</span> RmMg <span class="pl-k">=</span> <span class="pl-v">this</span>;</td>
       </tr>
       <tr>
         <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line">  },</td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line">  <span class="pl-smi">RmMg</span>.<span class="pl-smi">rooms</span> <span class="pl-k">=</span> {};</td>
       </tr>
       <tr>
         <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>repository<span class="pl-pds">&quot;</span></span>: {</td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line">  <span class="pl-smi">RmMg</span>.<span class="pl-smi">roomIndex</span> <span class="pl-k">=</span> {};</td>
       </tr>
       <tr>
         <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;</span>type<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>git<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;</span>url<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>git+https://github.com/imtaekh/online_ping_pong.git<span class="pl-pds">&quot;</span></span></td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line">  <span class="pl-smi">RmMg</span>.<span class="pl-en">create</span> <span class="pl-k">=</span> <span class="pl-k">function</span>(<span class="pl-smi">socket0</span>,<span class="pl-smi">socket1</span>){</td>
       </tr>
       <tr>
         <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line">  },</td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">var</span> roomId <span class="pl-k">=</span> <span class="pl-smi">socket0</span>.<span class="pl-c1">id</span><span class="pl-k">+</span><span class="pl-smi">socket1</span>.<span class="pl-c1">id</span>;</td>
       </tr>
       <tr>
         <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>keywords<span class="pl-pds">&quot;</span></span>: [</td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">var</span> room <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">Room</span>(RmMg,roomId,socket0,socket1);</td>
       </tr>
       <tr>
         <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;</span>node<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">socket0</span>.<span class="pl-c1">join</span>(roomId);</td>
       </tr>
       <tr>
         <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;</span>game<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">socket1</span>.<span class="pl-c1">join</span>(roomId);</td>
       </tr>
       <tr>
         <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="LC17" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;</span>online<span class="pl-pds">&quot;</span></span></td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">RmMg</span>.<span class="pl-smi">rooms</span>[roomId] <span class="pl-k">=</span> room;</td>
       </tr>
       <tr>
         <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="LC18" class="blob-code blob-code-inner js-file-line">  ],</td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">RmMg</span>.<span class="pl-smi">roomIndex</span>[<span class="pl-smi">socket0</span>.<span class="pl-c1">id</span>] <span class="pl-k">=</span> roomId;</td>
       </tr>
       <tr>
         <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="LC19" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>author<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>imtaek hong<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">RmMg</span>.<span class="pl-smi">roomIndex</span>[<span class="pl-smi">socket1</span>.<span class="pl-c1">id</span>] <span class="pl-k">=</span> roomId;</td>
       </tr>
       <tr>
         <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="LC20" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>license<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>ISC<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">ready</span>.<span class="pl-en">initialize</span>(io,room);</td>
       </tr>
       <tr>
         <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="LC21" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>bugs<span class="pl-pds">&quot;</span></span>: {</td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">io</span>.<span class="pl-en">to</span>(<span class="pl-smi">socket0</span>.<span class="pl-c1">id</span>).<span class="pl-en">emit</span>(<span class="pl-s"><span class="pl-pds">&quot;</span>ready<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>left<span class="pl-pds">&quot;</span></span>);</td>
       </tr>
       <tr>
         <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="LC22" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;</span>url<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>https://github.com/imtaekh/online_ping_pong/issues<span class="pl-pds">&quot;</span></span></td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">io</span>.<span class="pl-en">to</span>(<span class="pl-smi">socket1</span>.<span class="pl-c1">id</span>).<span class="pl-en">emit</span>(<span class="pl-s"><span class="pl-pds">&quot;</span>ready<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>right<span class="pl-pds">&quot;</span></span>);</td>
       </tr>
       <tr>
         <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="LC23" class="blob-code blob-code-inner js-file-line">  },</td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">console</span>.<span class="pl-c1">log</span>(<span class="pl-s"><span class="pl-pds">&quot;</span>Room Created :<span class="pl-pds">&quot;</span></span>, roomId);</td>
       </tr>
       <tr>
         <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
-        <td id="LC24" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>homepage<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>https://github.com/imtaekh/online_ping_pong#readme<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line">  };</td>
       </tr>
       <tr>
         <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
-        <td id="LC25" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>dependencies<span class="pl-pds">&quot;</span></span>: {</td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line">  <span class="pl-smi">RmMg</span>.<span class="pl-en">destroy</span> <span class="pl-k">=</span> <span class="pl-k">function</span>(<span class="pl-smi">roomId</span>){</td>
       </tr>
       <tr>
         <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
-        <td id="LC26" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;</span>express<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>^4.13.4<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">var</span> room <span class="pl-k">=</span> <span class="pl-smi">RmMg</span>.<span class="pl-smi">rooms</span>[roomId];</td>
       </tr>
       <tr>
         <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
-        <td id="LC27" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;</span>socket.io<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>^1.4.5<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">room</span>.<span class="pl-smi">players</span>.<span class="pl-en">forEach</span>(<span class="pl-k">function</span>(<span class="pl-smi">socket</span>){</td>
       </tr>
       <tr>
         <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="LC28" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;</span>path<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>^0.12.7<span class="pl-pds">&quot;</span></span></td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line">      <span class="pl-k">var</span> message <span class="pl-k">=</span> (<span class="pl-k">!</span><span class="pl-smi">room</span>.<span class="pl-smi">objects</span>[<span class="pl-smi">socket</span>.<span class="pl-c1">id</span>].<span class="pl-smi">ready</span><span class="pl-k">&amp;&amp;!</span><span class="pl-smi">room</span>.<span class="pl-smi">objects</span>.<span class="pl-smi">countdown</span>)<span class="pl-k">?</span><span class="pl-s"><span class="pl-pds">&quot;</span>YOU ARE NOT PREPARED<span class="pl-pds">&quot;</span></span><span class="pl-k">:</span><span class="pl-c1">null</span>;</td>
       </tr>
       <tr>
         <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="LC29" class="blob-code blob-code-inner js-file-line">  }</td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line">      <span class="pl-k">delete</span> <span class="pl-smi">RmMg</span>.<span class="pl-smi">roomIndex</span>[<span class="pl-smi">socket</span>.<span class="pl-c1">id</span>];</td>
       </tr>
       <tr>
         <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="LC30" class="blob-code blob-code-inner js-file-line">}</td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">      <span class="pl-smi">io</span>.<span class="pl-en">to</span>(<span class="pl-smi">socket</span>.<span class="pl-c1">id</span>).<span class="pl-en">emit</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>destroy<span class="pl-pds">&#39;</span></span>,message);</td>
+      </tr>
+      <tr>
+        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line">    });</td>
+      </tr>
+      <tr>
+        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">delete</span> <span class="pl-smi">RmMg</span>.<span class="pl-smi">rooms</span>[roomId];</td>
+      </tr>
+      <tr>
+        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line">  };</td>
+      </tr>
+      <tr>
+        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">module</span>.<span class="pl-smi">exports</span> <span class="pl-k">=</span> RoomManager;</td>
+      </tr>
+      <tr>
+        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line"><span class="pl-k">function</span> <span class="pl-en">Room</span>(<span class="pl-smi">RmMg</span>, <span class="pl-smi">id</span>, <span class="pl-smi">socket0</span>, <span class="pl-smi">socket1</span>) {</td>
+      </tr>
+      <tr>
+        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line">  <span class="pl-k">var</span> room <span class="pl-k">=</span> <span class="pl-v">this</span>;</td>
+      </tr>
+      <tr>
+        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
+        <td id="LC40" class="blob-code blob-code-inner js-file-line">  <span class="pl-smi">room</span>.<span class="pl-c1">id</span> <span class="pl-k">=</span> id;</td>
+      </tr>
+      <tr>
+        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
+        <td id="LC41" class="blob-code blob-code-inner js-file-line">  <span class="pl-smi">room</span>.<span class="pl-smi">RmMg</span> <span class="pl-k">=</span> RmMg;</td>
+      </tr>
+      <tr>
+        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
+        <td id="LC42" class="blob-code blob-code-inner js-file-line">  <span class="pl-smi">room</span>.<span class="pl-smi">players</span> <span class="pl-k">=</span> [socket0,socket1];</td>
+      </tr>
+      <tr>
+        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
+        <td id="LC43" class="blob-code blob-code-inner js-file-line">  <span class="pl-smi">room</span>.<span class="pl-en">loop</span> <span class="pl-k">=</span> <span class="pl-k">function</span>(){};</td>
+      </tr>
+      <tr>
+        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
+        <td id="LC44" class="blob-code blob-code-inner js-file-line">  <span class="pl-smi">room</span>.<span class="pl-smi">objects</span> <span class="pl-k">=</span> {};</td>
+      </tr>
+      <tr>
+        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
+        <td id="LC45" class="blob-code blob-code-inner js-file-line">  <span class="pl-smi">room</span>.<span class="pl-smi">objects</span>[<span class="pl-smi">room</span>.<span class="pl-smi">players</span>[<span class="pl-c1">0</span>].<span class="pl-c1">id</span>] <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">Player</span>(<span class="pl-smi">room</span>.<span class="pl-smi">players</span>[<span class="pl-c1">0</span>].<span class="pl-c1">id</span>, <span class="pl-s"><span class="pl-pds">&quot;</span>LEFT<span class="pl-pds">&quot;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
+        <td id="LC46" class="blob-code blob-code-inner js-file-line">  <span class="pl-smi">room</span>.<span class="pl-smi">objects</span>[<span class="pl-smi">room</span>.<span class="pl-smi">players</span>[<span class="pl-c1">1</span>].<span class="pl-c1">id</span>] <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">Player</span>(<span class="pl-smi">room</span>.<span class="pl-smi">players</span>[<span class="pl-c1">1</span>].<span class="pl-c1">id</span>, <span class="pl-s"><span class="pl-pds">&quot;</span>RIGHT<span class="pl-pds">&quot;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
+        <td id="LC47" class="blob-code blob-code-inner js-file-line">  <span class="pl-smi">room</span>.<span class="pl-smi">objects</span>.<span class="pl-smi">player0Score</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">Score</span>(<span class="pl-smi">room</span>.<span class="pl-smi">players</span>[<span class="pl-c1">0</span>].<span class="pl-c1">id</span>, <span class="pl-s"><span class="pl-pds">&quot;</span>LEFT<span class="pl-pds">&quot;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
+        <td id="LC48" class="blob-code blob-code-inner js-file-line">  <span class="pl-smi">room</span>.<span class="pl-smi">objects</span>.<span class="pl-smi">player1Score</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">Score</span>(<span class="pl-smi">room</span>.<span class="pl-smi">players</span>[<span class="pl-c1">1</span>].<span class="pl-c1">id</span>, <span class="pl-s"><span class="pl-pds">&quot;</span>RIGHT<span class="pl-pds">&quot;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
+        <td id="LC49" class="blob-code blob-code-inner js-file-line">  <span class="pl-smi">room</span>.<span class="pl-smi">objects</span>.<span class="pl-smi">ball</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">Ball</span>(<span class="pl-smi">room</span>.<span class="pl-smi">players</span>[<span class="pl-c1">0</span>].<span class="pl-c1">id</span>, <span class="pl-smi">room</span>.<span class="pl-smi">players</span>[<span class="pl-c1">1</span>].<span class="pl-c1">id</span>);</td>
+      </tr>
+      <tr>
+        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
+        <td id="LC50" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
+        <td id="LC51" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
+        <td id="LC52" class="blob-code blob-code-inner js-file-line"><span class="pl-k">var</span> ready <span class="pl-k">=</span> {</td>
+      </tr>
+      <tr>
+        <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
+        <td id="LC53" class="blob-code blob-code-inner js-file-line">  <span class="pl-en">initialize</span> <span class="pl-k">:</span> <span class="pl-k">function</span>(<span class="pl-smi">io</span>,<span class="pl-smi">room</span>){</td>
+      </tr>
+      <tr>
+        <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
+        <td id="LC54" class="blob-code blob-code-inner js-file-line">    <span class="pl-v">this</span>.<span class="pl-smi">io</span> <span class="pl-k">=</span> io;</td>
+      </tr>
+      <tr>
+        <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
+        <td id="LC55" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">room</span>.<span class="pl-c1">status</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>ready<span class="pl-pds">&quot;</span></span>;</td>
+      </tr>
+      <tr>
+        <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
+        <td id="LC56" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">room</span>.<span class="pl-smi">loop</span> <span class="pl-k">=</span> <span class="pl-v">this</span>.<span class="pl-smi">loop</span>;</td>
+      </tr>
+      <tr>
+        <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
+        <td id="LC57" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">room</span>.<span class="pl-smi">objects</span>.<span class="pl-smi">countdown</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">Countdown</span>(<span class="pl-c1">10</span>,<span class="pl-c1">null</span>,<span class="pl-c1">SETTINGS</span>.<span class="pl-c1">HEIGHT</span><span class="pl-k">-</span><span class="pl-c1">40</span>);</td>
+      </tr>
+      <tr>
+        <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
+        <td id="LC58" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">room</span>.<span class="pl-smi">objects</span>.<span class="pl-smi">countdown</span>.<span class="pl-en">action</span> <span class="pl-k">=</span> <span class="pl-k">function</span>(<span class="pl-smi">room</span>){</td>
+      </tr>
+      <tr>
+        <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
+        <td id="LC59" class="blob-code blob-code-inner js-file-line">      <span class="pl-k">delete</span> <span class="pl-smi">room</span>.<span class="pl-smi">objects</span>.<span class="pl-smi">countdown</span>;</td>
+      </tr>
+      <tr>
+        <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
+        <td id="LC60" class="blob-code blob-code-inner js-file-line">      <span class="pl-smi">room</span>.<span class="pl-smi">RmMg</span>.<span class="pl-en">destroy</span>(<span class="pl-smi">room</span>.<span class="pl-c1">id</span>);</td>
+      </tr>
+      <tr>
+        <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
+        <td id="LC61" class="blob-code blob-code-inner js-file-line">    };</td>
+      </tr>
+      <tr>
+        <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
+        <td id="LC62" class="blob-code blob-code-inner js-file-line">  },</td>
+      </tr>
+      <tr>
+        <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
+        <td id="LC63" class="blob-code blob-code-inner js-file-line">  <span class="pl-en">loop</span> <span class="pl-k">:</span> <span class="pl-k">function</span>(<span class="pl-smi">room</span>){</td>
+      </tr>
+      <tr>
+        <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
+        <td id="LC64" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">var</span> player0ready <span class="pl-k">=</span> <span class="pl-smi">room</span>.<span class="pl-smi">objects</span>[<span class="pl-smi">room</span>.<span class="pl-smi">players</span>[<span class="pl-c1">0</span>].<span class="pl-c1">id</span>].<span class="pl-smi">ready</span>;</td>
+      </tr>
+      <tr>
+        <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
+        <td id="LC65" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">var</span> player1ready <span class="pl-k">=</span> <span class="pl-smi">room</span>.<span class="pl-smi">objects</span>[<span class="pl-smi">room</span>.<span class="pl-smi">players</span>[<span class="pl-c1">1</span>].<span class="pl-c1">id</span>].<span class="pl-smi">ready</span>;</td>
+      </tr>
+      <tr>
+        <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
+        <td id="LC66" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">if</span>(player0ready<span class="pl-k">&amp;&amp;</span>player1ready){</td>
+      </tr>
+      <tr>
+        <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
+        <td id="LC67" class="blob-code blob-code-inner js-file-line">      <span class="pl-smi">ready</span>.<span class="pl-en">destroy</span>(room);</td>
+      </tr>
+      <tr>
+        <td id="L68" class="blob-num js-line-number" data-line-number="68"></td>
+        <td id="LC68" class="blob-code blob-code-inner js-file-line">      <span class="pl-smi">playing</span>.<span class="pl-en">initialize</span>(<span class="pl-smi">ready</span>.<span class="pl-smi">io</span>,room);</td>
+      </tr>
+      <tr>
+        <td id="L69" class="blob-num js-line-number" data-line-number="69"></td>
+        <td id="LC69" class="blob-code blob-code-inner js-file-line">    }</td>
+      </tr>
+      <tr>
+        <td id="L70" class="blob-num js-line-number" data-line-number="70"></td>
+        <td id="LC70" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">var</span> statuses <span class="pl-k">=</span> [];</td>
+      </tr>
+      <tr>
+        <td id="L71" class="blob-num js-line-number" data-line-number="71"></td>
+        <td id="LC71" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">for</span>(<span class="pl-k">var</span> object <span class="pl-k">in</span> <span class="pl-smi">room</span>.<span class="pl-smi">objects</span>){</td>
+      </tr>
+      <tr>
+        <td id="L72" class="blob-num js-line-number" data-line-number="72"></td>
+        <td id="LC72" class="blob-code blob-code-inner js-file-line">      <span class="pl-k">var</span> obj <span class="pl-k">=</span> <span class="pl-smi">room</span>.<span class="pl-smi">objects</span>[object];</td>
+      </tr>
+      <tr>
+        <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
+        <td id="LC73" class="blob-code blob-code-inner js-file-line">      <span class="pl-smi">obj</span>.<span class="pl-en">update</span>(room);</td>
+      </tr>
+      <tr>
+        <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
+        <td id="LC74" class="blob-code blob-code-inner js-file-line">      <span class="pl-smi">statuses</span>.<span class="pl-c1">push</span>(<span class="pl-smi">obj</span>.<span class="pl-c1">status</span>);</td>
+      </tr>
+      <tr>
+        <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
+        <td id="LC75" class="blob-code blob-code-inner js-file-line">    }</td>
+      </tr>
+      <tr>
+        <td id="L76" class="blob-num js-line-number" data-line-number="76"></td>
+        <td id="LC76" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">ready</span>.<span class="pl-smi">io</span>.<span class="pl-en">to</span>(<span class="pl-smi">room</span>.<span class="pl-c1">id</span>).<span class="pl-en">emit</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>update<span class="pl-pds">&#39;</span></span>,statuses);</td>
+      </tr>
+      <tr>
+        <td id="L77" class="blob-num js-line-number" data-line-number="77"></td>
+        <td id="LC77" class="blob-code blob-code-inner js-file-line">  },</td>
+      </tr>
+      <tr>
+        <td id="L78" class="blob-num js-line-number" data-line-number="78"></td>
+        <td id="LC78" class="blob-code blob-code-inner js-file-line">  <span class="pl-en">destroy</span> <span class="pl-k">:</span> <span class="pl-k">function</span>(<span class="pl-smi">room</span>){</td>
+      </tr>
+      <tr>
+        <td id="L79" class="blob-num js-line-number" data-line-number="79"></td>
+        <td id="LC79" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">delete</span> <span class="pl-smi">room</span>.<span class="pl-smi">objects</span>.<span class="pl-smi">playing</span>;</td>
+      </tr>
+      <tr>
+        <td id="L80" class="blob-num js-line-number" data-line-number="80"></td>
+        <td id="LC80" class="blob-code blob-code-inner js-file-line">  }</td>
+      </tr>
+      <tr>
+        <td id="L81" class="blob-num js-line-number" data-line-number="81"></td>
+        <td id="LC81" class="blob-code blob-code-inner js-file-line">};</td>
+      </tr>
+      <tr>
+        <td id="L82" class="blob-num js-line-number" data-line-number="82"></td>
+        <td id="LC82" class="blob-code blob-code-inner js-file-line"><span class="pl-k">var</span> playing <span class="pl-k">=</span> {</td>
+      </tr>
+      <tr>
+        <td id="L83" class="blob-num js-line-number" data-line-number="83"></td>
+        <td id="LC83" class="blob-code blob-code-inner js-file-line">  <span class="pl-en">initialize</span> <span class="pl-k">:</span> <span class="pl-k">function</span>(<span class="pl-smi">io</span>,<span class="pl-smi">room</span>){</td>
+      </tr>
+      <tr>
+        <td id="L84" class="blob-num js-line-number" data-line-number="84"></td>
+        <td id="LC84" class="blob-code blob-code-inner js-file-line">    <span class="pl-v">this</span>.<span class="pl-smi">io</span> <span class="pl-k">=</span> io;</td>
+      </tr>
+      <tr>
+        <td id="L85" class="blob-num js-line-number" data-line-number="85"></td>
+        <td id="LC85" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">room</span>.<span class="pl-c1">status</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>countdown<span class="pl-pds">&quot;</span></span>;</td>
+      </tr>
+      <tr>
+        <td id="L86" class="blob-num js-line-number" data-line-number="86"></td>
+        <td id="LC86" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">room</span>.<span class="pl-smi">loop</span> <span class="pl-k">=</span> <span class="pl-v">this</span>.<span class="pl-smi">loop</span>;</td>
+      </tr>
+      <tr>
+        <td id="L87" class="blob-num js-line-number" data-line-number="87"></td>
+        <td id="LC87" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">room</span>.<span class="pl-smi">objects</span>.<span class="pl-smi">countdown</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">Countdown</span>(<span class="pl-c1">3</span>,<span class="pl-c1">null</span>,<span class="pl-c1">SETTINGS</span>.<span class="pl-c1">HEIGHT</span><span class="pl-k">*</span><span class="pl-c1">3</span><span class="pl-k">/</span><span class="pl-c1">4</span>,<span class="pl-c1">100</span>);</td>
+      </tr>
+      <tr>
+        <td id="L88" class="blob-num js-line-number" data-line-number="88"></td>
+        <td id="LC88" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">room</span>.<span class="pl-smi">objects</span>.<span class="pl-smi">countdown</span>.<span class="pl-en">action</span> <span class="pl-k">=</span> <span class="pl-k">function</span>(<span class="pl-smi">room</span>){</td>
+      </tr>
+      <tr>
+        <td id="L89" class="blob-num js-line-number" data-line-number="89"></td>
+        <td id="LC89" class="blob-code blob-code-inner js-file-line">      <span class="pl-k">delete</span> <span class="pl-smi">room</span>.<span class="pl-smi">objects</span>.<span class="pl-smi">countdown</span>;</td>
+      </tr>
+      <tr>
+        <td id="L90" class="blob-num js-line-number" data-line-number="90"></td>
+        <td id="LC90" class="blob-code blob-code-inner js-file-line">      <span class="pl-smi">room</span>.<span class="pl-c1">status</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>playing<span class="pl-pds">&quot;</span></span>;</td>
+      </tr>
+      <tr>
+        <td id="L91" class="blob-num js-line-number" data-line-number="91"></td>
+        <td id="LC91" class="blob-code blob-code-inner js-file-line">    };</td>
+      </tr>
+      <tr>
+        <td id="L92" class="blob-num js-line-number" data-line-number="92"></td>
+        <td id="LC92" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">io</span>.<span class="pl-en">to</span>(<span class="pl-smi">room</span>.<span class="pl-c1">id</span>).<span class="pl-en">emit</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>playing<span class="pl-pds">&#39;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="L93" class="blob-num js-line-number" data-line-number="93"></td>
+        <td id="LC93" class="blob-code blob-code-inner js-file-line">  },</td>
+      </tr>
+      <tr>
+        <td id="L94" class="blob-num js-line-number" data-line-number="94"></td>
+        <td id="LC94" class="blob-code blob-code-inner js-file-line">  <span class="pl-en">loop</span> <span class="pl-k">:</span> <span class="pl-k">function</span>(<span class="pl-smi">room</span>){</td>
+      </tr>
+      <tr>
+        <td id="L95" class="blob-num js-line-number" data-line-number="95"></td>
+        <td id="LC95" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">var</span> statuses <span class="pl-k">=</span> [];</td>
+      </tr>
+      <tr>
+        <td id="L96" class="blob-num js-line-number" data-line-number="96"></td>
+        <td id="LC96" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">for</span>(<span class="pl-k">var</span> object <span class="pl-k">in</span> <span class="pl-smi">room</span>.<span class="pl-smi">objects</span>){</td>
+      </tr>
+      <tr>
+        <td id="L97" class="blob-num js-line-number" data-line-number="97"></td>
+        <td id="LC97" class="blob-code blob-code-inner js-file-line">      <span class="pl-k">var</span> obj <span class="pl-k">=</span> <span class="pl-smi">room</span>.<span class="pl-smi">objects</span>[object];</td>
+      </tr>
+      <tr>
+        <td id="L98" class="blob-num js-line-number" data-line-number="98"></td>
+        <td id="LC98" class="blob-code blob-code-inner js-file-line">      <span class="pl-smi">obj</span>.<span class="pl-en">update</span>(room);</td>
+      </tr>
+      <tr>
+        <td id="L99" class="blob-num js-line-number" data-line-number="99"></td>
+        <td id="LC99" class="blob-code blob-code-inner js-file-line">      <span class="pl-smi">statuses</span>.<span class="pl-c1">push</span>(<span class="pl-smi">obj</span>.<span class="pl-c1">status</span>);</td>
+      </tr>
+      <tr>
+        <td id="L100" class="blob-num js-line-number" data-line-number="100"></td>
+        <td id="LC100" class="blob-code blob-code-inner js-file-line">    }</td>
+      </tr>
+      <tr>
+        <td id="L101" class="blob-num js-line-number" data-line-number="101"></td>
+        <td id="LC101" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">playing</span>.<span class="pl-smi">io</span>.<span class="pl-en">to</span>(<span class="pl-smi">room</span>.<span class="pl-c1">id</span>).<span class="pl-en">emit</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>update<span class="pl-pds">&#39;</span></span>,statuses);</td>
+      </tr>
+      <tr>
+        <td id="L102" class="blob-num js-line-number" data-line-number="102"></td>
+        <td id="LC102" class="blob-code blob-code-inner js-file-line">  }</td>
+      </tr>
+      <tr>
+        <td id="L103" class="blob-num js-line-number" data-line-number="103"></td>
+        <td id="LC103" class="blob-code blob-code-inner js-file-line">};</td>
       </tr>
 </table>
 
@@ -769,7 +1066,7 @@
       <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" role="img" title="GitHub " version="1.1" viewBox="0 0 16 16" width="24"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59 0.4 0.07 0.55-0.17 0.55-0.38 0-0.19-0.01-0.82-0.01-1.49-2.01 0.37-2.53-0.49-2.69-0.94-0.09-0.23-0.48-0.94-0.82-1.13-0.28-0.15-0.68-0.52-0.01-0.53 0.63-0.01 1.08 0.58 1.23 0.82 0.72 1.21 1.87 0.87 2.33 0.66 0.07-0.52 0.28-0.87 0.51-1.07-1.78-0.2-3.64-0.89-3.64-3.95 0-0.87 0.31-1.59 0.82-2.15-0.08-0.2-0.36-1.02 0.08-2.12 0 0 0.67-0.21 2.2 0.82 0.64-0.18 1.32-0.27 2-0.27 0.68 0 1.36 0.09 2 0.27 1.53-1.04 2.2-0.82 2.2-0.82 0.44 1.1 0.16 1.92 0.08 2.12 0.51 0.56 0.82 1.27 0.82 2.15 0 3.07-1.87 3.75-3.65 3.95 0.29 0.25 0.54 0.73 0.54 1.48 0 1.07-0.01 1.93-0.01 2.2 0 0.21 0.15 0.46 0.55 0.38C13.71 14.53 16 11.53 16 8 16 3.58 12.42 0 8 0z"></path></svg>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2016 <span title="0.07583s from github-fe155-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2016 <span title="0.14685s from github-fe122-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
