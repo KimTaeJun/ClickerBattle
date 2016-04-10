@@ -1,7 +1,7 @@
 {
-  "name": "online_ping_pong",
-  "version": "1.0.0",
-  "description": "fun online ping pong",
+  "name": "online_SnakeBike",
+  "version": "0.0.1",
+  "description": "Online Snake Bike!",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,15 +16,18 @@
     "game",
     "online"
   ],
-  "author": "imtaek hong",
+  "author": "babkoo",
   "license": "ISC",
   "bugs": {
     "url": "https://git.heroku.com/clickerbattle.git/issues"
   },
   "homepage": "https://git.heroku.com/clickerbattle.git",
   "dependencies": {
+    "body-parser": "^1.15.0",
     "express": "^4.13.4",
+    "mongoose": "^4.4.10",
+    "path": "^0.12.7",
     "socket.io": "^1.4.5",
-    "path": "^0.12.7"
+    "three.js": "^0.73.2"
   }
 }
